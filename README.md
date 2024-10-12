@@ -3,7 +3,7 @@
 MATLAB codes used in the paper *Cyclic jetting enables microbubble-mediated drug delivery*, submitted to Nature Physics.
 
 ## Scripts description
-* `BubbleRadiusDisplacementImpulseStress.m`: Script to numerically simulate the time evolution of the bubble radius, bubble displacement, dimensionless impulse and stress generated. Corresponding to Fig. 2abcde and Fig. 4e.  
+* `BubbleRadiusDisplacementImpulseStress.m`: Script to numerically simulate the time evolution of the bubble radius, bubble displacement, dimensionless impulse and stress generated. Corresponding to Fig. 2a-e and Fig. 4e.  
 * `ModifiedRayleighPlesset_MarmottantZhou.m`: Function to solve the modified Rayleigh-Plesset equation with the Marmottant model as shell model and the Zhou model as the gas core model.  
 - `ExperimentalPressureEnvelope.m`: Function to extract the envelope of the experimentally recorded ultrasound driving signal.  
 - `UltrasoundPulse.dat`: Experimentally recorded ultrasound driving signal.  
