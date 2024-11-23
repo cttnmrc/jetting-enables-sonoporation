@@ -102,8 +102,8 @@ set(gca,'TickLabelInterpreter','latex');
 grid on
 box on
 hold on
-plot(t, abs(centroid(:,2)-max(centroid(:,2))))
-plot(t, abs(centroid(:,2)-max(centroid(:,2))),'o','MarkerSize',7);
+plot(t, abs(centroid(:,2)-(centroid(4,2))))
+plot(t, abs(centroid(:,2)-(centroid(4,2))),'o','MarkerSize',7);
 xlabel('$t$ [s]','interpreter','latex')
 ylabel('$y$ [m]','interpreter','latex')
 ay=gca; ay.YAxis.Exponent = -6;
